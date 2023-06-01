@@ -2,7 +2,7 @@ import React from 'react'
 
 const Team = ({ className, color = "#6691FF" }) => {
     return (
-        <svg className={className} width="39" height="40" viewBox="0 0 39 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className={className} width="30" height="34" viewBox="0 0 39 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M30.0449 11.2868C29.9398 11.2688 29.817 11.2688 29.7119 11.2868C27.2926 11.1969 25.3643 9.16311 25.3643 6.64342C25.3643 4.06974 27.3803 2 29.8872 2C32.3941 2 34.4101 4.08774 34.4101 6.64342C34.3926 9.16311 32.4642 11.1969 30.0449 11.2868Z" stroke={color} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M28.2391 24.3893C30.6408 24.8032 33.288 24.3713 35.1462 23.0935C37.618 21.4017 37.618 18.63 35.1462 16.9382C33.2704 15.6604 30.5882 15.2285 28.1865 15.6604" stroke={color} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M8.95547 11.2868C9.06065 11.2688 9.18337 11.2688 9.28855 11.2868C11.7078 11.1969 13.6362 9.16311 13.6362 6.64342C13.6362 4.06974 11.6201 2 9.11325 2C6.60636 2 4.59033 4.08774 4.59033 6.64342C4.60786 9.16311 6.53624 11.1969 8.95547 11.2868Z" stroke={color} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />

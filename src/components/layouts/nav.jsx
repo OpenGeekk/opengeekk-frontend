@@ -16,7 +16,7 @@ import Instagram from '../images/Instagram';
 const Nav = () => {
     return (
         <nav>
-            <ul className='flex flex-row justify-between flex-wrap'>
+            <ul className='flex justify-between flex-wrap mt-2'>
                 <li>
                     <Link href="/">
                         <Home />
@@ -44,6 +44,7 @@ const Nav = () => {
                 </li>
             </ul>
         </nav>
+
     );
 };
 
