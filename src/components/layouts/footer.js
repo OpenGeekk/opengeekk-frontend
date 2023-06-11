@@ -6,9 +6,9 @@ import Instagram from '../images/Instagram';
 const footer = () => {
     return (
         <footer className='border-t border-gray-400'>
-            <div className='md:max-lg:flex'>
+            <div className='md:max-auto'>
                 <div>
-                    <h1 className='text-sm font-normal text-center'>
+                    <h1 className='flex font-normal justify-center'>
                        <span>&copy; 2023 Your Company. All rights reserved.</span>
                     </h1>
                 </div>
