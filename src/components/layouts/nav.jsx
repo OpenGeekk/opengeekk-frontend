@@ -3,16 +3,12 @@ import Link from 'next/link';
 
 /* Import SVGs */
 import Brain from '../images/Brain';
-import Bulb from '../images/Bulb';
 import Home from '../images/Home';
 import Team from '../images/Team';
 import Dark from '../Dark';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
 import Projects from '../images/Projects';
-import Facebook from '../images/Facebook';
-import Twitter from '../images/Twitter';
-import Instagram from '../images/Instagram';
 import { useState } from 'react';
  function App() {
     const [nav , setNav]= useState(false);
@@ -22,8 +18,6 @@ import { useState } from 'react';
             }else{
                 setNav('close');
             }
-            
-    
     }
     return (
         <section>
